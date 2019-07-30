@@ -1,0 +1,48 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    margin-left: 30%;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .circle1 {
+      height: 100px;
+      width: 100px;
+      margin-left: 5%;
+      background-color: green;
+      border-radius: 50%;
+      animation-name: jump;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+
+  .circle2 {
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+    background-color: pink;
+    border-radius: 50%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+
+  
+  @keyframes jump {
+    0% {
+     top: 0px;
+    }
+    50% {
+      margin-top: 300px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+  }
+  }
